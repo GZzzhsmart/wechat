@@ -1,0 +1,36 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10rpx 10rpx;
+  box-sizing: border-box;
+} 
+
+button {
+  height: 100rpx;
+  border:none;
+  background-color: beige;
+  border-radius: 50rpx;
+}
+
+.my-btn {
+  height: 100rpx;
+  background-color: beige;
+  border-radius: 50rpx;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-btn view {
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.my-btn icon {
+  margin-right: 30rpx;
+}

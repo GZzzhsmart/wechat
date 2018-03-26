@@ -1,0 +1,48 @@
+/**index.wxss**/
+.swiper-image image {
+  width: 400px;
+  height: 150px;
+}
+
+.products {
+  margin-top: 30rpx;
+  margin-left:20rpx;
+  margin-right:20rpx;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 650rpx;
+  margin-top: 30rpx;
+  border:1rpx solid silver;
+}
+
+.detail image {
+  width: 100%;
+  height: 150px;
+}
+
+.detail .title {
+  font-size: 16px;
+  font-weight: bold;
+  color:blue;
+}
+
+.detail .des {
+  font-size: 12x;
+}
+
+.detail .price {
+  font-size: 10px;
+  color:#aaa;
+}
+
+.detail .sale_price {
+  color: orange;
+}
+
+.detail button {
+  margin-bottom: 10rpx;
+}

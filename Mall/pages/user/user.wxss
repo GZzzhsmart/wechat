@@ -1,0 +1,45 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.userinfo view {
+  margin-right: 20rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.list {
+  margin-top: 50rpx;
+}
+
+.list view {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100rpx;
+  padding-left: 20rpx;
+  margin-bottom: 15rpx;
+  border-bottom: 1rpx solid silver;
+}
+
+.list image {
+  height: 60rpx;
+  width: 60rpx;
+}
+
+.list text {
+  color:#aaa;
+  margin-left: 30rpx;
+}

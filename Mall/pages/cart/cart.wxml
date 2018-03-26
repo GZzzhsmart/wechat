@@ -1,0 +1,27 @@
+<view class="container">
+  <view class="list">
+  
+	  <view wx:if="{{cart.length > 0}}">
+		<block wx:for="{{cart}}" wx:key="{{cart.product.id}}">
+		  <view class="detail">
+				<image src="{{item.product.imageUrl}}"></image>
+				  <text class="title">{{item.product.title}}</text>
+				  <text class="sale_price">￥{{item.product.salePrice}}</text>
+				  <text>{{item.count}}</text>
+				  <icon data-index="{{index}}" type="cancel" bindtap="remove"/>
+		  </view>
+
+		  <text>支付金额：{{totalPay}}</text>
+		  <view class="my-btn">
+			<view>
+			  <icon type="success"/>
+			  <text>立即支付</text>
+			</view>
+		  </view>
+		</block>
+	  </view>
+	  <view wx:else>
+		购物车暂无商品
+	  </view>
+	</view>
+</view>

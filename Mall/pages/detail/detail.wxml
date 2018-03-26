@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="detail">
+        <image data-id="{{product.id}}" src="{{product.imageUrl}}" bindtap="showDetail"></image>
+        <text class="title">{{product.title}}</text>
+        <text class="des">{{product.des}}</text>
+        <text class="price">￥{{product.price}}</text>
+        <text class="sale_price">￥{{product.salePrice}}</text>
+        <view>
+          <button>加入购物车</button>
+          <button>立即购买</button>
+        </view>
+      </view>
+</view>

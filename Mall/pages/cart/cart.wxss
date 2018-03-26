@@ -1,0 +1,14 @@
+/**index.wxss**/
+.detail {
+  height: 150rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid silver
+}
+
+.detail image {
+  height: 100rpx;
+  width: 100rpx;
+}
